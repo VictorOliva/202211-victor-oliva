@@ -13,6 +13,7 @@ body {
 section {
   display: flex;
   flex-wrap: wrap;
+  background-color: aliceblue;
 }
 
 /*# sourceMappingURL=style.css.map */
