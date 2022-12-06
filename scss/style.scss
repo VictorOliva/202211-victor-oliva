@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    background-color: rgb(64, 0, 255);
+}
+body {
+    margin: 0;
+    font-family: 'Carter One', cursive;
+    padding: 1.5rem;
+    min-width: 781px;
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
