@@ -1,19 +1,19 @@
 * {
-    box-sizing: border-box;
-    background-color: rgb(64, 0, 255);
+  box-sizing: border-box;
+  background-color: rgb(64, 0, 255);
 }
 
 body {
-    margin: 0;
-    font-family: 'Carter One', cursive;
-    padding: 1.5rem;
-    min-width: 781px;
+  margin: 0;
+  font-family: "Carter One", cursive;
+  padding: 1.5rem;
+  min-width: 781px;
 }
 
 section {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: aliceblue;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: aliceblue;
 }
 
 /*# sourceMappingURL=style.css.map */
