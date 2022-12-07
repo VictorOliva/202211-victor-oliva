@@ -1,24 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@300&family=Zen+Dots&display=swap");
 * {
   box-sizing: border-box;
-
-  background-color: rgb(64, 0, 255);
-
+  background-color: #eecaa5;
 }
 
 body {
   margin: 0;
-
-  font-family: "Carter One", cursive;
-  padding: 1.5rem;
-  min-width: 781px;
-
+  font-family: "Roboto", sans-seriff;
+  padding: 2rem;
 }
 
 section {
   display: flex;
   flex-wrap: wrap;
-
 }
 
 div.pokemon {
@@ -111,7 +105,6 @@ p.pokemon__buttons__p {
   text-align: center;
   font-weight: 700;
   background-color: #f6ecec;
-
 }
 
 /*# sourceMappingURL=style.css.map */
