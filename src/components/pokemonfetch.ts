@@ -30,9 +30,10 @@ export class PokemonPrint extends Component {
         this.pokemonsInfo = await Promise.all(
             pokemonArray.map((url: string) => fetch(url).then((r) => r.json()))
         );
-        //link a las siguientes cargas
+
         this.manageComponent();
     }
+
     manageComponent() {
         this.template = this.createTemplate();
         this.render(this.selector, this.template);

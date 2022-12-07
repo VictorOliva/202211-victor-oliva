@@ -1,15 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@300&family=Zen+Dots&display=swap');
 * {
     box-sizing: border-box;
-    background-color: rgb(64, 0, 255);
+    background-color: #eecaa5;
 }
 body {
     margin: 0;
-    font-family: 'Carter One', cursive;
-    padding: 1.5rem;
-    min-width: 781px;
+    font-family: 'Roboto', sans-seriff;
+    padding: 2rem;
 }
 section {
     display: flex;
     flex-wrap: wrap;
-    background-color: aliceblue;
+}
+div.pokemon {
+    width: 202px;
+    height: 180px;
+    margin: 5px 5px 5px 5px;
+    position: center;
+    border: 1px solid #5a4122;
+    box-shadow: 3px 3px 7px #afaaa5;
+    border-radius: 1rem;
+    cursor: pointer;
+    text-align: center;
+    background-color: #f6ecec;
+}
+
+h2 {
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+    background-color: #f6ecec;
+}
+img {
+    background-color: #f6ecec;
+}
+div.pokemon__buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    margin: 5px 5px 5px 5px;
+    position: center;
+    border-radius: 0.5rem;
+    background-color: #f6ecec;
+}
+
+button.pokemon__buttons__prev {
+    width: 20%;
+    height: 80%;
+    margin: 5px 5px 5px 5px;
+    position: center;
+    border-radius: 3rem;
+    background-color: #ef5350;
+    margin-left: 20%;
+    border: 1px solid #fcfcfc;
+    box-shadow: 3px 3px 7px #afaaa5;
+    cursor: pointer;
+    color: #fcfcfc;
+}
+button.pokemon__buttons__prev:hover,
+button.pokemon__buttons__next:hover {
+    background-color: #8a2927;
+}
+
+button.pokemon__buttons__next {
+    color: #fcfcfc;
+    width: 20%;
+    height: 80%;
+    margin: 5px 5px 5px 5px;
+    position: center;
+    border-radius: 3rem;
+    background-color: #ef5350;
+    margin-right: 20%;
+    border: 1px solid #fcfcfc;
+    box-shadow: 3px 3px 7px #afaaa5;
+    cursor: pointer;
+}
+
+h1 {
+    width: 100%;
+    height: 100px;
+    margin: 5px 5px 5px 5px;
+    position: center;
+    border-radius: 0.5rem;
+    background-color: #ef5350;
+    border: 1px solid #fcfcfc;
+    box-shadow: 3px 3px 7px #afaaa5;
+    text-align: center;
+    font-size: 66px;
+    color: #fcfcfc;
+}
+p.pokemon__buttons__p {
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #ef5350;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+    background-color: #f6ecec;
 }
