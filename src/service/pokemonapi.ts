@@ -7,4 +7,7 @@ export class PokemonApi {
     getPokemon(): Promise<Array<PokemonApi>> {
         return fetch(this.urlDefault).then((response) => response.json());
     }
+    getCustomPage(nextUrl: string): Promise<any> {
+        return fetch(nextUrl).then((response) => response.json());
+    }
 }
